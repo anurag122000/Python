@@ -1,0 +1,8 @@
+a=int(input("start = "))
+b=int(input("stop = "))
+
+print("*********")
+
+for i in range(a,b+1):
+    
+    print(i)
