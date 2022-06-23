@@ -1,0 +1,8 @@
+a=int(input("factor of = "))
+print("****************")
+f=1
+while f<=a:
+    if a%f==0:
+        print("=",f)
+    f=f+1
+   
