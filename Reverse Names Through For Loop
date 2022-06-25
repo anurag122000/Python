@@ -1,0 +1,7 @@
+a=input("name = ")
+print("**************")
+rev=""
+for i in a:
+    rev=i+rev
+
+print("reverse = ",rev)
