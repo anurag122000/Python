@@ -1,0 +1,7 @@
+a=input("enter = ").split(",")
+print("************************")
+for i in a:
+    if i==i[::-1]:
+        print("palindrome =  ",i)
+    else:
+        print("not palindrome = ",i)
